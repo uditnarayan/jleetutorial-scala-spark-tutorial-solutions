@@ -1,7 +1,5 @@
-# scala-spark-tutorial
+# scala-spark-tutorial-solutions
 
-Project source code for James Lee's Aparch Spark with Scala course.
+My solutions to James Lee's scala spark tutorials. Project source code for James Lee's Aparch Spark with Scala course is available at:
+  > https://github.com/jleetutorial/scala-spark-tutorial
 
-Check out the full list of DevOps and Big Data courses that James and Tao teach.
-
-https://www.level-up.one/courses/
