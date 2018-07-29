@@ -16,7 +16,7 @@ object UnionLogProblem {
 
        Make sure the head lines are removed in the resulting RDD.
      */
-    val sparkConf = new SparkConf().setAppName("union_sample_nasa_logs").setMaster("local[*]")
+    val sparkConf = new SparkConf().setAppName("union_sample_nasa_logs").setMaster("local[1]")
     val sc = new SparkContext(sparkConf)
 
     val julyLogs = sc.textFile("in/nasa_19950701.tsv")
