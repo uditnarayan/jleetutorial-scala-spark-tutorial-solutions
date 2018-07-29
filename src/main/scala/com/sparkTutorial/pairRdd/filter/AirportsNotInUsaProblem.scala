@@ -21,7 +21,7 @@ object AirportsNotInUsaProblem {
        ("Wewak Intl", "Papua New Guinea")
        ...
      */
-    val conf = new SparkConf().setAppName("").setMaster("local[1]")
+    val conf = new SparkConf().setAppName("airportsNotInUS").setMaster("local[1]")
     val sc = new SparkContext(conf)
 
     val data = sc.textFile("in/airports.text")
